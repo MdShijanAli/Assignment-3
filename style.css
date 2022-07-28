@@ -44,7 +44,8 @@
 .courses,
 .learning,
 .join,
-.seccess-student {
+.seccess-student,
+.feedback {
     margin-top: 120px;
 }
 
@@ -72,9 +73,14 @@
     padding: 20px 50px;
 }
 
-/* .students img {
-    width: 100%;
-    overflow: hidden;
-    padding: 0;
-    margin: 0;
-} */
+.students h6 {
+    color: #898A8A;
+}
+
+.feedback h1 {
+    font-size: 50px;
+}
+
+.accordion {
+    padding: 5% 15%;
+}
