@@ -43,7 +43,8 @@
 
 .courses,
 .learning,
-.join {
+.join,
+.seccess-student {
     margin-top: 120px;
 }
 
@@ -70,3 +71,10 @@
 .join {
     padding: 20px 50px;
 }
+
+/* .students img {
+    width: 100%;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+} */
