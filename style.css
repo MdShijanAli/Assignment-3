@@ -41,7 +41,8 @@
 
 }
 
-.courses {
+.courses,
+.learning {
     margin-top: 120px;
 }
 
@@ -49,4 +50,18 @@
     font-size: 50px;
     font-weight: 600;
 
+}
+
+.learning {
+    background: #F4FAFD;
+}
+
+.learning h1 {
+    font-size: 50px;
+    margin-top: 50px;
+}
+
+.learning p {
+    font-size: 18px;
+    color: #898A8A;
 }
