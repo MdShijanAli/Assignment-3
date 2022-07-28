@@ -45,7 +45,9 @@
 .learning,
 .join,
 .seccess-student,
-.feedback {
+.faq,
+.brands,
+footer {
     margin-top: 120px;
 }
 
@@ -83,4 +85,8 @@
 
 .accordion {
     padding: 5% 15%;
+}
+
+footer .row {
+    padding: 50px;
 }
