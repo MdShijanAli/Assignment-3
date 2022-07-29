@@ -32,12 +32,12 @@
 }
 
 .carousel-caption h1 {
-    font-size: 70px;
+    font-size: 8vh;
     font-weight: 600;
 }
 
 .carousel-caption p {
-    font-size: 18px;
+    font-size: 3vh;
 
 }
 
@@ -62,12 +62,12 @@ footer {
 }
 
 .learning h1 {
-    font-size: 50px;
+    font-size: 10vh;
     margin-top: 50px;
 }
 
 .learning p {
-    font-size: 18px;
+    font-size: 5vhpx;
     color: #898A8A;
 }
 
@@ -89,4 +89,67 @@ footer {
 
 footer .row {
     padding: 50px;
+}
+
+.row.col-md-6.border.border-1.ps-0.ms-0.single-course {
+    margin-right: 2%;
+    margin-bottom: 2%;
+    width: 48%;
+}
+
+.views h1 {
+    font-size: 10vh;
+}
+
+
+@media screen and (max-width:575px) {
+    .brands {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width:576px) and (max-width:991px) {
+
+
+    .brands {
+        display: none;
+    }
+
+    .accordion {
+        padding: 5% 0;
+    }
+
+    .learning h1 {
+        margin-top: 10px;
+    }
+
+    .learning p {
+        height: 50px;
+        overflow: hidden;
+    }
+
+    .learning img {
+        height: 100%;
+    }
+
+    .learning button {
+        font-style: 16px;
+        padding: 10px 20px !important;
+    }
+
+    .carousel-caption {
+        bottom: 50px;
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+}
+
+@media screen and (min-width:992px) {
+
+
+    .register {
+        margin: auto;
+    }
+
 }
