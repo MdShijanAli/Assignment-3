@@ -41,6 +41,11 @@
 
 }
 
+.single-course {
+    width: 47%;
+    margin: 0 1.5% 0 1.5%;
+}
+
 .courses,
 .learning,
 .join,
@@ -52,7 +57,7 @@ footer {
 }
 
 .courses h1 {
-    font-size: 50px;
+    font-size: 10vh;
     font-weight: 600;
 
 }
@@ -107,6 +112,18 @@ footer .row {
         display: none;
     }
 
+    .carousel-caption {
+        bottom: 0;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .img-box img {
+        width: 100%;
+        overflow: hidden;
+    }
+
+
 }
 
 @media screen and (min-width:576px) and (max-width:991px) {
@@ -150,6 +167,11 @@ footer .row {
 
     .register {
         margin: auto;
+    }
+
+    .single-course {
+        margin-right: 10px !important;
+        overflow: hidden;
     }
 
 }
