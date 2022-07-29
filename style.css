@@ -107,9 +107,9 @@ footer .row {
 }
 
 
-@media screen and (max-width:575px) {
+@media screen and (max-width:576px) {
     .brands {
-        display: none;
+        display: none !important;
     }
 
     .carousel-caption {
@@ -123,10 +123,35 @@ footer .row {
         overflow: hidden;
     }
 
+    .students .card {
+        width: 100% !important;
+    }
+
+    .accordion {
+        padding: 5% 0;
+    }
+
+    .single-course {
+        width: 90% !important;
+        margin: auto;
+        padding-right: 0;
+        margin-bottom: 20px;
+
+    }
+
+    .img-box img {
+        width: 100% !important;
+
+    }
+
+    .learning img {
+        width: 100% !important;
+    }
+
 
 }
 
-@media screen and (min-width:576px) and (max-width:991px) {
+@media screen and (min-width:576px) and (max-width:992px) {
 
 
     .brands {
@@ -159,6 +184,12 @@ footer .row {
         bottom: 50px;
         padding-left: 100px;
         padding-right: 100px;
+    }
+
+
+
+    .single-course {
+        width: 100% !important;
     }
 }
 
